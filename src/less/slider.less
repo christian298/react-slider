@@ -1,0 +1,35 @@
+.slider{
+    overflow: hidden;
+
+    .sliderWrapper{
+        display: flex;
+        align-items: stretch;
+        position: relative;
+        transition: 0.4s linear;
+    }
+
+    .sliderItem{
+        flex: 0 0 100%;
+        //transition: 0.4s linear;
+        img{
+            width: 100%;
+        }
+    }
+
+    .sliderNavi{
+        span{
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 10%;
+        }
+
+        .navLeft{
+            left: 0;
+        }
+
+        .navRight{
+            right: 0;
+        }
+    }
+}

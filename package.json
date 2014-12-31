@@ -1,0 +1,14 @@
+{
+  "name": "react-slider",
+  "version": "0.0.1",
+  "description": "React Slider",
+  "devDependencies": {
+    "css-loader": "*",
+    "jsx-loader": "*",
+    "less": "*",
+    "less-loader": "*",
+    "react": "*",
+    "style-loader": "*",
+    "webpack": "*"
+  }
+}
